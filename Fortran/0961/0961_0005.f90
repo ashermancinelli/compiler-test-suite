@@ -6,6 +6,7 @@ subroutine sub(i)
 class(*)::i(:)
 
 integer::arr(10)
+arr = 0
 
 select type(aa=>i)
 type is(integer)
